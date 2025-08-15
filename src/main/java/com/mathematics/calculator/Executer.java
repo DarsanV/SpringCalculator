@@ -27,19 +27,19 @@ public class Executer {
         switch (operation)
         {
             case "add":
-               service.setCalculator(context.getBean("add_calculator",com.mathematics.calculator.operations.BaseCalculator.class));
+               service.setCalculator(context.getBean("Additor",com.mathematics.calculator.operations.BaseCalculator.class));
                break;
 
             case "sub":
-                service.setCalculator(context.getBean("sub_calculator",com.mathematics.calculator.operations.BaseCalculator.class));
+                service.setCalculator(context.getBean("Subractor",com.mathematics.calculator.operations.BaseCalculator.class));
                 break;
 
             case "mul":
-                service.setCalculator(context.getBean("mul_calculator",com.mathematics.calculator.operations.BaseCalculator.class));
+                service.setCalculator(context.getBean("Multiplier",com.mathematics.calculator.operations.BaseCalculator.class));
                 break;
 
             case "div":
-                service.setCalculator(context.getBean("div_calculator",com.mathematics.calculator.operations.BaseCalculator.class));
+                service.setCalculator(context.getBean("Dividor",com.mathematics.calculator.operations.BaseCalculator.class));
                 break;
 
             default:

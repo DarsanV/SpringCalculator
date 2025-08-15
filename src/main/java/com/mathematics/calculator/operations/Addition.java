@@ -1,5 +1,9 @@
 package com.mathematics.calculator.operations;
 
+
+import org.springframework.stereotype.Component;
+
+@Component("Additor")
 public class Addition implements BaseCalculator{
 
 

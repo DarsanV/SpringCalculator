@@ -1,5 +1,8 @@
 package com.mathematics.calculator.operations;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class CalculatorService {
 
     private BaseCalculator calculator;
